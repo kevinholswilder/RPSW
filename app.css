@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    width: auto;
+    height: 100vh;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 150px;
+}
+
+.choices button {
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -270px;
+}
+
+.choices button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.results div{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 150px;
+}
+
+#player img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 9px;
+}
+
+#computer img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 9px;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
